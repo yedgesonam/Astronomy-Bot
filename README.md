@@ -4,6 +4,6 @@ The bot uses libraries such as discord, aiohttp, asyncio, datetime, and pandas t
 The bot defines functions to retrieve APOD data for a specific date, send APOD images as Discord embeds, and fetch APOD images within a given date range.
 The bot fetches APOD images by making asynchronous API requests using the aiohttp library. It retrieves the image data, creates a Discord embed with the image and relevant information, and sends it to a specified channel.
 The bot loops through a specified date range using pandas. For each date, it sends the APOD image and waits for 3 minutes before proceeding to the next date.The bot initializes a discord.Client object, sets up event handlers, and runs the bot using the client.run() method.
-
-![image](https://github.com/yedgesonam/Astronomy-Bot/assets/127570849/f6a24219-5e49-4a0a-a207-3e4826f368ce)
+
+
 
